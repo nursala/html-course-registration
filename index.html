@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+
+    <title>Nour-Amer</title>
+</head>
+<body>
+
+<h1>פרטים</h1>
+<p>
+    נור צלאח —
+    noor@example.com —
+    שנת לימודים ג׳
+</p>
+<p>
+    עאמר אבו סיר —
+    amer@example.com —
+    שנת לימודים ג׳
+</p>
+<h2>עיר מגורים</h2>
+<p>
+    ירושלים היא עיר מרכזית באזור הרי יהודה, בעלת היסטוריה ותרבות עשירות, מוקדי מורשת ואתרים מוכרים.
+    העיר משלבת שכונות ותיקות וחדשות ונחשבת למוקד חשוב בתחומי הממשל, החינוך והתרבות.
+</p>
+
+<a href="https://he.wikipedia.org/wiki/%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/121086-Jerusalem-Mount-of-Olives_%2826988237083%29.jpg/500px-121086-Jerusalem-Mount-of-Olives_%2826988237083%29.jpg"
+        height="334" width="500" alt="ירושלים"></a>
+
+<h1>לימודים</h1>
+<ul>
+    <li>תכנות אינטרנט א' 110204153שת-261</li>
+    <li>עיבוד שפה טבעית - בחירה 110203493ש-261</li>
+    <li>אוטומטים ושפות פורמליות 110202053ש'-261</li>
+</ul>
+<h1>תחביבים</h1>
+<p>
+    אני אוהב לפתח תוכנה וללמוד טכנולוגיות חדשות, במיוחד בתחומי ווב ואלגוריתמים.
+</p>
+<p>
+    בזמני הפנוי אני מתאמן בספורט, מאזין למוזיקה ומבלה עם המשפחה והחברים.
+</p>
+<p>
+    בנוסף, אני נהנה מקריאת ספרים וצפייה בסרטים, ולעיתים מתנדב בקהילה.
+</p>
+
+<h1>רישום</h1>
+<form>
+    <label for="courseName">שם קורס:</label><br>
+    <input id="courseName" type="text" required><br><br>
+
+    <label for="courseCode">קוד קורס (9 ספרות):</label><br>
+    <input id="courseCode" type="text" pattern="[0-9]{9}" maxlength="9" inputmode="numeric" required><br><br>
+
+    <label for="year">שנת לימוד:</label><br>
+    <select id="year" name="year" required>
+        <option value="" disabled selected hidden>בחר/י שנת לימוד</option>
+        <option value="א">א</option>
+        <option value="ב">ב</option>
+        <option value="ג">ג</option>
+        <option value="ד">ד</option>
+    </select>
+    <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+
+</body>
+</html>
